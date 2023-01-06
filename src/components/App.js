@@ -3,8 +3,13 @@ import '../styles/App.css';
 const App = () => {
 
   const handleClick = (event) =>{
-    console.log("Button id is:-button-a")
-
+    // console.log("Button id is:-button-a")
+    if(event.target.id === "button-a"){
+      console.log("Button id is:-button-a")
+    }
+    else{
+      console.log("Button id is:-button-b")
+    }
   }
 
   // do not remove the two buttons or change their id
